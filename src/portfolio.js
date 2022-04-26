@@ -22,9 +22,7 @@ const illustration = {
 const greeting = {
   username: "Islam Abdo",
   title: "Hi all, I'm Islam",
-  subTitle: emoji(
-    "A passionate Embedded Software Developer 🚀 having an experience of working with Microcontrollers, Sensors, Firmwares, and Real-Time Operating Systems. Good working knowledge in C, Python, and Circuit Design."
-    ),
+  subTitle: emoji("A passionate Embedded Software Developer 🚀 having an experience of working with Microcontrollers, Sensors, Firmwares, and Real-Time Operating Systems. Good working knowledge in C, Python, and Circuit Design."),
   resumeLink:
     "https://drive.google.com/drive/folders/1sa5V7hjf66fkZuOpJz1Th2jQNC9WBKOk?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
