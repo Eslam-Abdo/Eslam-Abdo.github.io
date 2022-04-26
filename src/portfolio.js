@@ -195,7 +195,7 @@ const workExperiences = {
       date: "OCT 2021 - MAR 2022",
       // location: "Alexandria, Eygpt",
       desc:
-        "Taught kids about how to build robots, how to program them using sequence programming methods, Problem Solving, Robot Design, Lego pieces, EV3 programming, and PID Controller.",
+        "Taught kids how to build robots, and how to program them using sequence programming methods, Problem Solving, Robot Design, Lego pieces, EV3 programming, and PID Controller.",
     },
     {
       role: "Embedded Engineer",
