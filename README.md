@@ -32,8 +32,9 @@ Created something awesome for your fork of the portfolio and want to share it? F
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [Illustrations](#illustrations)
-- [For the Future](#for-the-future)
-- [Contributors](#project-maintainers)
+- [License](#license-📄)
+- [Contributing](#contributing-💡)
+- [References](#references-👏🏻)
 
 ## Portfolio Sections
 ✔️ Summary and About me\
