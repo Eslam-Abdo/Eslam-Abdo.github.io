@@ -27,7 +27,6 @@ Created something awesome for your fork of the portfolio and want to share it? F
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
 - [Linking portfolio to GitHub](#linking-portfolio-to-github)
-- [Linking blogs section to Medium](#linking-blogs-section-to-medium)
 - [Change and Customize](#change-and-customize-every-section-according-to-your-need)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
@@ -139,7 +138,7 @@ If you are seeing something as shown below, follow these [instructions](https://
 ![ERROR](https://i.imgur.com/Hj6mu1K.png)
 
 If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
-
+<!-- 
 ## Linking blogs section to Medium
 
 Optionally, you can link the blogs section to your medium user account:
@@ -154,7 +153,7 @@ MEDIUM_USERNAME = "YOUR MEDIUM USERNAME"
 * For Github Action, change the environment variable `MEDIUM_USERNAME` in `.github/workflows/deploy.yml`
 
 Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Medium blogs, defaults to true.
-
+ -->
 ## Change and customize every section according to your need.
 
 #### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
