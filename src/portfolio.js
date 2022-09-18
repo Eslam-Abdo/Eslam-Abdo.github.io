@@ -33,7 +33,7 @@ const greeting = {
 const socialMediaLinks = {
   //   /* Your Social Media Link */
   github: "https://github.com/Eslam-Abdo",
-  linkedin: "https://www.linkedin.com/in/Islam-Abdo/",
+  linkedin: "https://eg.linkedin.com/in/Islam-Abdo/",
   youtube: "https://www.youtube.com/channel/UC8Vd3gI4ckdl9JJMLO09oXA",
   gmail: "eng-islam.abdo1722@alexu.edu.eg",
   facebook: "https://www.facebook.com/islam.abdo.925/",
