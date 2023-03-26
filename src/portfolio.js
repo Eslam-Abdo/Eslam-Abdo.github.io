@@ -22,7 +22,7 @@ const illustration = {
 const greeting = {
   username: "Islam Abdo",
   title: "Hi all, I'm Islam",
-  subTitle: emoji("A passionate Embedded Software Developer 🚀 having an experience of working with Microcontrollers, Sensors, Firmwares, and Real-Time Operating Systems. Good working knowledge in C, Python, and Circuit Design."),
+  subTitle: emoji("A passionate Embedded Software Engineer 🚀 having an experience of working with Microcontrollers, Sensors, Firmwares, and Real-Time Operating Systems. Good working knowledge in C/C++, Python, Data Structures & Algorithms, and Circuit Design."),
   resumeLink:
     "https://drive.google.com/drive/folders/1sa5V7hjf66fkZuOpJz1Th2jQNC9WBKOk?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -34,7 +34,7 @@ const socialMediaLinks = {
   //   /* Your Social Media Link */
   github: "https://github.com/Eslam-Abdo",
   linkedin: "https://eg.linkedin.com/in/Islam-Abdo/",
-  youtube: "https://www.youtube.com/channel/UC8Vd3gI4ckdl9JJMLO09oXA",
+  youtube: "https://www.youtube.com/@islam-abdo",
   gmail: "eng-islam.abdo1722@alexu.edu.eg",
   facebook: "https://www.facebook.com/islam.abdo.925/",
   instagram: "https://www.instagram.com/islamabd0/",
@@ -66,6 +66,10 @@ https://iconify.design/
     {
       skillName: "C",
       classname: "logos:c"
+    },
+    {
+      skillName: "C++",
+      classname: "logos:c-plusplus"
     },
     {
       skillName: "python",
@@ -375,7 +379,6 @@ const podcastSection = {
   ],
   display: false // Set false to hide this section, defaults to true
 };
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -391,6 +394,8 @@ const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
+
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -409,6 +414,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable,
-  twitterDetails
+  isHireable
 };
