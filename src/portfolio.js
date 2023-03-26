@@ -375,6 +375,7 @@ const podcastSection = {
   ],
   display: false // Set false to hide this section, defaults to true
 };
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -407,5 +408,7 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
+  twitterDetails,
+  isHireable,
   twitterDetails
 };
