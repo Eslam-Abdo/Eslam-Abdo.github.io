@@ -1,6 +1,11 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { FaEnvelope, FaFacebook, FaGithub, FaGitlab, FaHackerrank, FaInstagram, FaKaggle, FaLinkedinIn, FaMedium, FaStackOverflow, FaTwitter, FaYoutube } from "react-icons/fa6";
+
+const fontStyles = {fontSize: '25px', verticalAlign:'middle'};
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -15,7 +20,9 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
+          {/* <i className="fab fa-github"> </i> */}
+          <i><FaGithub style={fontStyles}/></i>
+          
           <span></span>
         </a>
       ) : null}
@@ -27,7 +34,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin-in"></i>
+          {/* <i className="fab fa-linkedin-in"> </i> */}
+          <i><FaLinkedinIn style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -39,7 +47,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fas fa-envelope"></i>
+          {/* <i className="fas fa-envelope"></i> */}
+          <i><FaEnvelope style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -51,7 +60,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-gitlab"></i>
+          {/* <i className="fab fa-gitlab"></i> */}
+          <i><FaGitlab style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -63,7 +73,8 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
         >
-          <i className="fab fa-youtube"></i>
+          {/* <i className="fab fa-youtube"></i> */}
+          <i><FaYoutube style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -76,7 +87,8 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
         >
-          <i className="fab fa-facebook"></i>
+          {/* <i className="fab fa-facebook"></i> */}
+          <i><FaFacebook style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -88,7 +100,8 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
         >
-          <i className="fab fa-instagram"></i>
+          {/* <i className="fab fa-instagram"></i> */}
+          <i><FaInstagram style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -100,7 +113,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-twitter"></i>
+          {/* <i className="fab fa-twitter"></i> */}
+          <i><FaTwitter style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -112,7 +126,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"></i>
+          {/* <i className="fab fa-medium"></i> */}
+          <i><FaMedium style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -124,7 +139,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"></i>
+          {/* <i className="fab fa-stack-overflow"></i> */}
+          <i><FaStackOverflow style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -136,7 +152,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-hackerrank" ></i>
+          {/* <i className="fab fa-hackerrank" ></i> */}
+          <i><FaHackerrank style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
@@ -148,7 +165,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-kaggle"></i>
+          {/* <i className="fab fa-kaggle"></i> */}
+          <i><FaKaggle style={fontStyles}/></i>
           <span></span>
         </a>
       ) : null}
